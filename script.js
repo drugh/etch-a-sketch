@@ -66,7 +66,7 @@ function createGrid(size) {
         child.classList.add('child');
         parent.appendChild(child);
         // cum il colorez (ce culoare)?
-        child.addEventListener('mouseover', chooseFunction);
+        child.addEventListener('click', chooseFunction);
     }
 }
 
