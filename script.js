@@ -65,7 +65,6 @@ function createGrid(size) {
         let child = document.createElement('div');
         child.classList.add('child');
         parent.appendChild(child);
-        // cum il colorez (ce culoare)?
         child.addEventListener('click', chooseFunction);
     }
 }
